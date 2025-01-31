@@ -15,7 +15,7 @@ import retrofit2.http.POST
 import retrofit2.http.PUT
 import retrofit2.http.Path
 
-private const val BASE_URL = "http://motorapiamca.us-east-1.elasticbeanstalk.com/api/"
+private const val BASE_URL = """
 
 private val retrofit = Retrofit.Builder()
     .addConverterFactory(Json.asConverterFactory("application/json".toMediaType()))
